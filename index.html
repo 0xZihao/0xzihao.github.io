@@ -19,17 +19,16 @@
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
 
-<!-- AOS.js [Order matters, load at 1st]-->
-<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script defer src="script.js"></script>
-
+    <!-- AOS.js [Order matters, load at 1st]-->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="navbar.js"></script>
     <title>Landing | Tailwind Starter Kit by Creative Tim</title>
   </head>
   <body class="text-gray-800 antialiased">
-
     <!-- Navigation-->
     <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
     >
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
@@ -71,7 +70,7 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Share</span></a
               >
@@ -81,7 +80,7 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Tweet</span></a
               >
@@ -91,7 +90,7 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Star</span></a
               >
@@ -100,7 +99,7 @@
               <button
                 class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                 type="button"
-                style="transition: all 0.15s ease 0s;"
+                style="transition: all 0.15s ease 0s"
               >
                 <i class="fas fa-arrow-alt-circle-down"></i> Download
               </button>
@@ -109,16 +108,18 @@
         </div>
       </div>
     </nav>
-<!--End of Navigation bar-->
+    <!--End of Navigation bar-->
 
     <main>
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 75vh;"
+        style="min-height: 75vh"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'
+          style="
+            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80');
+          "
         >
           <span
             id="blackOverlay"
@@ -143,7 +144,7 @@
         </div>
         <div
           class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px;"
+          style="height: 70px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -264,7 +265,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 583 95"
                     class="absolute left-0 w-full block"
-                    style="height: 95px; top: -94px;"
+                    style="height: 95px; top: -94px"
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
@@ -288,7 +289,7 @@
       <section class="relative py-20">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px;"
+          style="height: 80px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -394,7 +395,7 @@
                   alt="..."
                   src="./assets/img/team-1-800x800.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Ryan Tompson</h5>
@@ -428,7 +429,7 @@
                   alt="..."
                   src="./assets/img/team-2-800x800.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Romina Hadid</h5>
@@ -457,7 +458,7 @@
                   alt="..."
                   src="./assets/img/team-3-800x800.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Alexa Smith</h5>
@@ -491,7 +492,7 @@
                   alt="..."
                   src="./assets/img/team-4-470x470.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Jenna Kardi</h5>
@@ -530,7 +531,7 @@
       <section class="pb-20 relative block bg-gray-900">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px;"
+          style="height: 80px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -623,7 +624,7 @@
                       type="text"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Full Name"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <div class="relative w-full mb-3">
@@ -635,7 +636,7 @@
                       type="email"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Email"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <div class="relative w-full mb-3">
@@ -654,7 +655,7 @@
                     <button
                       class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                       type="button"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     >
                       Send Message
                     </button>
@@ -669,7 +670,7 @@
     <footer class="relative bg-gray-300 pt-8 pb-6">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px;"
+        style="height: 80px"
       >
         <svg
           class="absolute bottom-0 overflow-hidden"
