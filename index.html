@@ -18,9 +18,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
+
+<!-- AOS.js [Order matters, load at 1st]-->
+<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script defer src="script.js"></script>
+
     <title>Landing | Tailwind Starter Kit by Creative Tim</title>
   </head>
   <body class="text-gray-800 antialiased">
+
+    <!-- Navigation-->
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
     >
@@ -102,6 +109,8 @@
         </div>
       </div>
     </nav>
+<!--End of Navigation bar-->
+
     <main>
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
